@@ -25,6 +25,7 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - $PWD/grafana:/etc/grafana
+    command: chown 472:472 x.*
     restart: unless-stopped
 
   node_exporter:
