@@ -2,8 +2,8 @@
 version: '3'
 
 volumes:
-  prometheus-data:
-    driver: local
+  # prometheus-data:
+  #   driver: local
   grafana-data:
     driver: local
 services:
@@ -13,8 +13,7 @@ services:
     # ports:
     #   - 9090:9090
     volumes:
-      - /root/container-monitoring/:/etc/prometheus
-      - prometheus-data: prometheus.yml
+      - /root/container-monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
     command: "--config.file=/etc/prometheus/prometheus.yml"
     restart: unless-stopped
 
