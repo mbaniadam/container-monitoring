@@ -13,8 +13,8 @@ services:
     # ports:
     #   - 9090:9090
     volumes:
-      - /etc/prometheus:/etc/prometheus
-      - prometheus-data:/prometheus
+      - /root/container-monitoring/:/etc/prometheus
+      - prometheus-data: prometheus.yml
     command: "--config.file=/etc/prometheus/prometheus.yml"
     restart: unless-stopped
 
