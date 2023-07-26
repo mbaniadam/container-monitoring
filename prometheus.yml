@@ -18,6 +18,6 @@ scrape_configs:
             - targets: ['cadvisor:8080']
 
   - job_name: 'jenkins'
-    metric_path: /prometheus
+    metrics_path: /prometheus
     static_configs:
             - targets: ['j.netmotion.online:8080']
