@@ -28,7 +28,7 @@ services:
     command:
       - chown grafana:grafana /etc/grafana/grafana.crt
       - chown grafana:grafana /etc/grafana/grafana.key
-      - chmod 400 grafana.key /etc/grafana/grafana.crt
+      - chmod 640 grafana.key /etc/grafana/grafana.crt
     restart: unless-stopped
 
   node_exporter:
