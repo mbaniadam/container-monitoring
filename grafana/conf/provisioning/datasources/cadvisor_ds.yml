@@ -1,3 +1,0 @@
-datasources:
-  - name: cadvisor
-    url: http://localhost:8080
