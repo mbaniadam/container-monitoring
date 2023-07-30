@@ -18,7 +18,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_PATHS_PROVISIONING=/etc/grafana/conf/provisioning
     volumes:
       - $PWD/grafana:/etc/grafana
     restart: unless-stopped
