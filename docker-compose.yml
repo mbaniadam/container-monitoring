@@ -22,18 +22,16 @@ services:
     container_name: grafana
     ports:
       - "3000:3000"
-
     environment:
-      - GF_PATHS_CONFIG=/etc/grafana/grafana.ini
-      - GF_PATHS_DATA=/var/lib/grafana
-      - GF_PATHS_HOME=/usr/share/grafana
-      - GF_PATHS_LOGS=/var/log/grafana
-      - GF_PATHS_PLUGINS=/var/lib/grafana/plugins
-      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_PATHS_CONFIG:/etc/grafana/grafana.ini
+      - GF_PATHS_DATA:/var/lib/grafana
+      - GF_PATHS_HOME:/usr/share/grafana
+      - GF_PATHS_LOGS:/var/log/grafana
+      - GF_PATHS_PLUGINS:/var/lib/grafana/plugins
+      - GF_PATHS_PROVISIONING:/etc/grafana/provisioning
     volumes:
       - grafana-data:/var/lib/grafana
       - $PWD/grafana:/etc/grafana
-      #- $PWD/grafana/conf/provisioning/datasources:/conf/provisioning/datasources
     restart: unless-stopped
 
   node_exporter:
