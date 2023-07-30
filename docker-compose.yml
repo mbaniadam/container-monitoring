@@ -25,6 +25,10 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - $PWD/grafana:/etc/grafana
+    command:
+      - chown grafana:grafana /etc/grafana/grafana.crt
+      - chown grafana:grafana /etc/grafana/grafana.key
+      - chmod 400 grafana.key /etc/grafana/grafana.crt
     restart: unless-stopped
 
   node_exporter:
