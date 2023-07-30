@@ -5,4 +5,4 @@ openssl x509 -req -days 3650 -in grafana.csr -signkey grafana.key -out grafana.c
 chown grafana:grafana grafana.crt
 chown grafana:grafana grafana.key
 chmod 400 grafana.key 
-chmod 777 grafana.crt
+chmod 774 grafana.crt
