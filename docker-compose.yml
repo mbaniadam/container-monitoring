@@ -17,6 +17,7 @@ services:
     container_name: grafana
     ports:
       - "3000:3000"
+    # grafana.ini provisioning path not worked!
     environment:
       - GF_PATHS_PROVISIONING=/etc/grafana/conf/provisioning
     volumes:
