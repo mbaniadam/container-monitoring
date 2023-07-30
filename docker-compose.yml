@@ -24,7 +24,7 @@ services:
       - "3000:3000"
     volumes:
       - grafana-data:/var/lib/grafana
-      - $PWD/grafana:/usr/share/grafana
+      #- $PWD/grafana:/usr/share/grafana
       #- $PWD/grafana/conf/provisioning/datasources:/conf/provisioning/datasources
     restart: unless-stopped
 
