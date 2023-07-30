@@ -25,7 +25,7 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - $PWD/grafana:/etc/grafana
-      - $PWD/grafana/datasources:/etc/grafana/conf/provisioning/datasources
+      - $PWD/grafana/conf/provisioning/datasources:/etc/grafana/conf/provisioning/datasources
     restart: unless-stopped
 
   node_exporter:
