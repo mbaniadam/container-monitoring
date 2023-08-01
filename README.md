@@ -1,7 +1,7 @@
 ### Docker Compose configuration for setting up Grafana and Prometheus, along with two exporters (Node_Exporter_Full and Cadvisor) to gather metrics from the host. Additionally, this repository provides code for configuring SSL for the Grafana web service.
 
-<img src="https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/f9abc032-de94-4a92-a1e3-9e9a6b1621ac" width="120">
-<img src="https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/6d274cfb-21fa-4393-936f-0dad9ff31bb1" width="100"><br>
+<img src="https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/f9abc032-de94-4a92-a1e3-9e9a6b1621ac" width="120"><br>
+<img src="https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/6d274cfb-21fa-4393-936f-0dad9ff31bb1" width="100">
 
 
 
