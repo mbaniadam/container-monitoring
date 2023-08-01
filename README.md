@@ -3,7 +3,7 @@
 ![image](https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/f9abc032-de94-4a92-a1e3-9e9a6b1621ac)
 ![image](https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/6d274cfb-21fa-4393-936f-0dad9ff31bb1)
 ![image](https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/8aa2a8e3-8e02-4c65-ba3a-bc9e96b149ca)
-![image](https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/fae9c33d-142a-47f4-a962-27b25f857995)
+<img src="https://github.com/mbaniadam/grafana-prometheus-as-code/assets/75830370/fae9c33d-142a-47f4-a962-27b25f857995 width="300">
 
 
 
