@@ -24,7 +24,7 @@ To install and set up Grafana and Prometheus with the provided exporters and SSL
 
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/mbaniadam/grafana-prometheus-as-code.git
 
 Navigate to the repository directory:
 
